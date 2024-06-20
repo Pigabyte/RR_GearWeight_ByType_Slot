@@ -1,0 +1,55 @@
+the weights are the following
+[9:55 PM]
+helmet       1.5
+cape         1.0
+amulet       1.0
+quiver       1.0
+platebody    1.7
+platelegs    1.5
+weapon       2.0
+shield       1.6
+gloves       1.3
+boots        1.2
+ring         1.5
+
+normal, metal, ghost, wood, ice, ground, fire, flying, water, dragon, demon, grass, poison, fighting, bug, dark, rock, charge
+
+
+you have to break the threshold of weight value 1.5 to break into the second type
+normal type weight value has a special multiplier of 0.2 and metal has 0.5
+
+
+
+type_modif = {"normal": "0.2",
+             "metal":"0.5",
+             "ghost": "1.0",
+             "wood": "1.0",
+             "ice": "1.0",
+             "ground": "1.0",
+             "fire": "1.0",
+             "flying": "1.0",
+             "water": "1.0",
+             "dragon": "1.0",
+             "demon": "1.0",
+             "grass": "1.0",
+             "poison": "1.0",
+             "fighting": "1.0",
+             "bug": "1.0",
+             "dark": "1.0",
+             "rock": "1.0",
+             "charge": "1.0"
+             }
+
+
+slot_type_weight = {"helmet" : {"type" : "normal" , "weight" : "1.5"},
+                    "cape" : {"type"  : "normal" , "weight" : "1.0"},
+                    "amulet" : {"type" : "normal" , "weight" : "1.0"},
+                    "quiver" : {"type" : "normal" , "weight" : "1.0"},
+                    "platebody" : {"type" : "normal" , "weight" : "1.7"},
+                    "platelegs" : {"type" : "normal" , "weight" : "1.5"},
+                    "weapon" : {"type" : "normal" , "weight" : "2.0"},
+                    "shield" : {"type" : "normal" , "weight" : "1.6"},
+                    "gloves" : {"type" : "normal" , "weight" : "1.3"},
+                    "boots" : {"type" : "normal" , "weight" : "1.2"},
+                    "ring" : {"type" : "normal" , "weight" : "1.5"}
+                    }
